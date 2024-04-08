@@ -1,7 +1,27 @@
 
 
-.accueil-block-gauche{
-    width: 50%;
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+
+}
+
+header {
+
+display: flex;
+flex-direction: column;
+width: 50%;
+background-image: url(../images/nicole.jpg);
+background-size: cover;
+   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+   
 }
 
 
