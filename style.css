@@ -2,9 +2,8 @@
 
 /* ##### CSS DU BODY #### */
 body {
-    height: 100vh;
     display: flex;
-
+    height: 100vh;
 .tilt-neon-<uniquifier> {
   font-family: "Tilt Neon", sans-serif;
   font-optical-sizing: auto;
@@ -14,58 +13,83 @@ body {
     "XROT" 0,
     "YROT" 0;
 }
-
 }
 
 /* ##### CSS HEADER ###### */
 
-header {
+/* le header contient 3 blocks : logo / article / menu */
+/* on met du display flex / column / space-between pour aligner les 3 blocks */
+/* on ajuster avec des padding et margin */
+.header {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px 15px 20px;
     width: 50%;
     background-image: url(../images/nicole.jpg);
     background-size: cover;
-    color: #f9f9f9;
+    background-position: center;
+    color: white;
 }
 
-.logo-ecole {
-    height: 30px;
-    width: 30px;
-    padding: 25px;
+/* @@@@@   1er block du header : logo  @@@@@@@ */
+/* on rajoute le display flex pour que le block s'aligne avec les autres grace au flex ! */
+
+.block-logo-ecole {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    /* line-height = espace entre les lignes */
+    line-height: 1.2;
+}
+
+.image-logo {
+    height: 40px
 }
 
 .nom-ecole {
     font-weight: bold;
     font-size: 25px;
-    width: 18px;
-    margin-left: 0px;
+    width: 1px;
 }
 
+/* @@@@@  2eme block du header : article @@@@@ */
 
 .article-header {
-   text-align: right;
-   padding-top:540px;
-
-
+    text-align: right;
+    background-color: #f9f9f950;
+    text-shadow: 0 0 4px black;
+    padding: 10px 24px 30px 300px;
 }
 
 .title-article-header{
     font-size: 1.5rem;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .article-baseline {
     font-weight: 200;
     font-size: medium;
+    font-style: italic;
 }
+
+.article-paragraphe {
+    margin-top: 10px;
+    font-weight: 200;
+    line-break: 1.2;
+
+}
+
+/* @@@@@ 3eme block du header : menu @@@@@ */
+
+
 
 
 
 /* ######  CSS MAIN #### */
 
 main {
-    display: flex;
-    flex-direction: column;
     width: 50%;
 }
 
