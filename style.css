@@ -59,7 +59,7 @@ body {
     text-align: right;
     background-color: #f9f9f950;
     text-shadow: 0 0 4px black;
-    padding: 10px 24px 30px 300px;
+    padding: 20px 24px 30px 300px;
 }
 
 .title-article-header{
@@ -77,19 +77,34 @@ body {
 .article-paragraphe {
     margin-top: 10px;
     font-weight: 200;
-    line-break: 1.2;
-
+    line-height: 1.2;
 }
 
 /* @@@@@ 3eme block du header : menu @@@@@ */
 
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+   
+}
 
+.menu {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.3rem;
+}
 
+.menu:hover {
+    color: #0099a8;
+    text-decoration: underline;
+}
 
 
 /* ######  CSS MAIN #### */
 
-main {
+.main {
     width: 50%;
 }
 

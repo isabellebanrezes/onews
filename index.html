@@ -36,9 +36,9 @@
 
              <!----  3eme block du header -->
             <nav class="header-menu">
-                <a href="">Plan du site</a>
-                <a href="">Mentions légales</a>
-                <a href="">Contact</a>
+                <a class="menu" href="#">Plan du site</a>
+                <a class="menu" href="#">Mentions légales</a>
+                <a class="menu" href="#">Contact</a>
             </nav>
 
     <!-- fin du header -->
@@ -49,11 +49,46 @@
 
     <main class="main">
 
-        <h2 class="lastest-news"> 
-        
-            <p class="title-lastest-news">Lastest news</p>
+        <!--------1er block du main : titre ------------------>
+        <h2 class="lastest-news">Lastest news </h2>
 
-        </h2>
+        <!---- 2eme bloc du main : les articles ------>
+
+        <!-------  Liste des articles ---->
+        <section class="main-articles-contaioner">
+
+            <!------   1er article ---->
+            <article class="main-article">
+
+                <div class="main-articles-tags">
+                    <!----- Theme de l'article -------->
+                    <span class="main-articles-tag">News</span>
+             
+                    <!------  Titre de l'article -------->
+                    <h3 class="main-article-title">Lorem ipsum, dolor sit amet</h3>
+
+                <div class="main-article-infos"> 
+
+                    <!-----  photo du journaliste ------>
+                    <img src="/images/icon-john.png" alt="photo icon-john" class="article-photo-journaliste">
+
+                    <!----    nom du journaliste-------->
+                    <strong class="article-nom-journaliste">john Marchill</strong>
+                    <!---  date de publication de l'article --->
+                    <span class="article-date">le 21 Juillet 2019</span>
+                </div>
+
+                    <!--- Contenu de l'article  ------->
+
+                <p class ="main-article-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sunt rerum debitis iure est odio quod commodi aspernatur, nam natus dignissimos necessitatibus fuga doloribus reprehenderit perspiciatis repellendus at corrupti? Illum.</p>
+                    <!------ lien vers l'article --------->
+             
+                    <a href="#" class="main-article-link">Continue reading</a>
+
+            </article>
+
+        </section>
+
 
     </main>
     
