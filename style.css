@@ -1,28 +1,84 @@
 
 
-
+/* ##### CSS DU BODY #### */
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
     display: flex;
 
+.tilt-neon-<uniquifier> {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
 }
+
+}
+
+/* ##### CSS HEADER ###### */
 
 header {
-
-display: flex;
-flex-direction: column;
-width: 50%;
-background-image: url(../images/nicole.jpg);
-background-size: cover;
-   
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-image: url(../images/nicole.jpg);
+    background-size: cover;
+    color: #f9f9f9;
 }
+
+.logo-ecole {
+    height: 30px;
+    width: 30px;
+    padding: 25px;
+}
+
+.nom-ecole {
+    font-weight: bold;
+    font-size: 25px;
+    width: 18px;
+    margin-left: 0px;
+}
+
+
+.article-header {
+   text-align: right;
+   padding-top:540px;
+
+
+}
+
+.title-article-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.article-baseline {
+    font-weight: 200;
+    font-size: medium;
+}
+
+
+
+/* ######  CSS MAIN #### */
 
 main {
     display: flex;
     flex-direction: column;
-   
+    width: 50%;
 }
+
+.lastest-news {
+    background-color:#f9f9f9 ;
+    padding-left: 25px;
+    height: 50px;
+    margin-top: 0%;
+    padding-top: 25px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
 
 
 
