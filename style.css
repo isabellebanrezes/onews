@@ -118,7 +118,7 @@ body {
     padding-left: 25px;
     height: 50px;
     margin-top: 0%;
-    padding-top: 25px;
+    padding: 25px;
     font-size: 1.7rem;
     font-weight: bold;
 }
@@ -132,7 +132,7 @@ body {
 .main-article {
     box-sizing: border-box;
     width: 50%;
-    border: 3px solid #f9f9f950;
+    border: 1px solid #f3f3f3;
     padding: 35px;
 }
 
@@ -141,24 +141,21 @@ body {
 }
 
 .main-article-tag {
-    margin: 20px;
-    padding-top: 8px;
-    width: 60px;
-    height: 20px;
     border-radius: 15%;
+    padding: 7px;
     text-align: center;
-    color: aliceblue;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .main-article-tag-team {
-   background-color: red;
+   background-color: #e95f64;
 }
 
 .main-article-tag-news {
-    background-color:#3ca45c;
+    background-color:#82db8c;
  }
 
  .main-article-tag-work {
@@ -169,7 +166,8 @@ body {
     font-weight: bold;
     padding: 10px;
     padding-bottom: 20px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
 }
 
 
@@ -202,6 +200,7 @@ body {
    color: #007bff;
    font-weight: bold;
     font-size: large;
+    transition-duration: 100ms;
 }
 
 .main_article_link:hover {
